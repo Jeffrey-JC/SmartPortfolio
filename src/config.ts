@@ -25,8 +25,8 @@ export const colors = getRandomTheme();
 export const random_theme_button = true;
 
 export const base_profile = {
-    first_name: "John",
-    last_name: "Doe",
+    first_name: "Jeffrey",
+    last_name: "Contreras",
     subtitle: "Aspiring Software Developer",
     bio: ["Miami, FL", "Florida International University"],
     name() {
@@ -40,31 +40,28 @@ export const extended_profile = {
 } as ExtendedProfile;
 
 export const skillsList = [
+    "C++",
+    "C",
+    "Python",
+    "Java",
+    "Embedded Systems",
+    "Visual Studio Code",
+    "Android Studio",
+    "Git",
+    "Github",
+    "Raspberry Pi",
+    "Linear Algebra",
+    "Data Structures and Algorithms",
+    "Systems Programming",
     "Time management",
     "Communication",
-    "Adaptability",
-    "Problem-solving",
     "Teamwork",
     "Creativity",
     "Leadership",
-    "Interpersonal skills",
-    "Work ethic",
-    "Attention to detail",
-    "Stress management",
-    "Organization",
-    "Prioritizing",
-    "Planning",
-    "Goal setting",
-    "Verbal communication",
-    "Written communication",
-    "Presentation",
-    "Constructive feedback",
-    "Active listening",
-    "Self-management",
     "Optimism",
     "Calmness",
     "Analysis",
-    "Self-motivation",
+    "Self-motivation"
 ];
 
 /**
@@ -81,7 +78,7 @@ There are no required links, but each link must have:
  */
 const projects_linksList = [
     {
-        url: "https://google.com",
+        url: "https://jeffrey-jc.github.io",
         title: "Portfolio",
         content: "By default, content is the url (view next to continue)",
     },
@@ -139,20 +136,20 @@ const games_linksList = [
 
 const contactMe_linksList = [
     {
-        url: "https://www.linkedin.com/in/",
+        url: "https://www.linkedin.com/in/jeffreycontreras059/",
         icon: "/icons/linkedin.svg",
         title: "LinkedIn",
     },
     {
-        url: "https://github.com/",
+        url: "https://github.com/Jeffrey-JC",
         icon: "/icons/github.svg",
         title: "GitHub",
     },
     {
-        url: "mailto: someone@gmail.com",
+        url: "mailto: jeffreycontreras22@gmail.com",
         title: "Email",
         icon: "/icons/email.svg",
-        content: "someone@gmail.com",
+        content: "jeffreycontreras22@gmail.com",
     },
 ] as Link[];
 
@@ -163,7 +160,7 @@ export const sections = {
     // An example of a button. This button is a resume download
     Resume: {
         url: "/Resume.docx",
-        download_name: `${base_profile.name()}_Resume.pdf`,
+        download_name: `${base_profile.name()}_Resume - Jeffrey Contreras.pdf`,
     },
     // An example of a list of projects, that is opened on load
     Projects: {
