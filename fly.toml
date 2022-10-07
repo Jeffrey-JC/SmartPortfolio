@@ -1,6 +1,6 @@
-# fly.toml file generated for broken-violet-5410 on 2022-10-06T20:42:26-04:00
+# fly.toml file generated for fragrant-violet-1430 on 2022-10-06T22:08:42-04:00
 
-app = "broken-violet-5410"
+app = "fragrant-violet-1430"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []

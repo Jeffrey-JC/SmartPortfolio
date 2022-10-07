@@ -36,7 +36,7 @@ export const base_profile = {
 
 export const extended_profile = {
     gender: "Male", // You can input any gender
-    username: "Cobra", // You can opt out my commenting either of these
+    //username: "Cobra", // You can opt out my commenting either of these
 } as ExtendedProfile;
 
 export const skillsList = [
@@ -159,8 +159,8 @@ const contactMe_linksList = [
 export const sections = {
     // An example of a button. This button is a resume download
     Resume: {
-        url: "/Resume - Jeffrey Contreras.docx",
-        download_name: `${base_profile.name()}_Resume - Jeffrey Contreras.pdf`,
+        url: "/Resume - Jeffrey Contreras.pdf",
+        download_name: `${base_profile.name()}`,
     },
     // An example of a list of projects, that is opened on load
     Projects: {
@@ -180,7 +180,7 @@ export const sections = {
 } as Sections;
 
 export const webpage_config = {
-    title: `${base_profile.name()}'s |attach|`,
+    //title: `${base_profile.name()}'s |attach|`,
     desc: `An |attach| for ${base_profile.name()}`,
     keywords: `New Grad, Portfolio, Projects, Developer, Coder, Programmer, Programming, Languages, Software, ${base_profile.name()}`,
 };
