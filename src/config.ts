@@ -160,7 +160,7 @@ export const sections = {
     // An example of a button. This button is a resume download
     Resume: {
         url: "/Resume - Jeffrey Contreras.pdf",
-        download_name: `${base_profile.name()}`,
+        download_name: `${base_profile.name()}_Resume`,
     },
     // An example of a list of projects, that is opened on load
     Projects: {

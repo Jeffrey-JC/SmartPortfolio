@@ -1,6 +1,6 @@
-# fly.toml file generated for fragrant-violet-1430 on 2022-10-06T22:08:42-04:00
+# fly.toml file generated for jeffreycontreras on 2022-10-06T23:14:29-04:00
 
-app = "fragrant-violet-1430"
+app = "jeffreycontreras"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
