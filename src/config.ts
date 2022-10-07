@@ -159,7 +159,7 @@ const contactMe_linksList = [
 export const sections = {
     // An example of a button. This button is a resume download
     Resume: {
-        url: "/Resume.docx",
+        url: "/Resume - Jeffrey Contreras.docx",
         download_name: `${base_profile.name()}_Resume - Jeffrey Contreras.pdf`,
     },
     // An example of a list of projects, that is opened on load
